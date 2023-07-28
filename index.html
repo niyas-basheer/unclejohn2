@@ -106,7 +106,25 @@
     </div>
   </div>
   <div class="center-button">
-    <button class="btn btn-primary">VIEW MORE</button>
+    <button class="btn btn-primary" id="hoverButton" onmouseover="handleHover(true)" onmouseout="handleHover(false)">VIEW MORE</button>
+     <script>
+      // JavaScript function to handle the button hover effect
+      function handleHover(isHovering) {
+        var button = document.getElementById('hoverButton');
+        
+        if (isHovering) {
+          // Code to execute when the button is hovered over
+          button.style.backgroundColor = 'blue';
+          button.style.color = 'white';
+          button.innerHTML = 'VIEW MORE';
+        } else {
+          // Code to execute when the mouse moves away from the button
+          button.style.backgroundColor = '';
+          button.style.color = '';
+          button.innerHTML = 'VIEW MORE';
+        }
+      }
+    </script>
   </div>
  
       <div class="additional-content">
