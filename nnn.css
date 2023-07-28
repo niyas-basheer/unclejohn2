@@ -1,0 +1,231 @@
+*{
+   margin: 0;
+   padding: 0;
+   border:0;
+   
+}
+.nav-link:hover{
+    color: red;
+    
+}
+.nav-link{
+    color: black;
+}
+.navbar a.nav-link {
+    color:rgb(51, 51, 51);
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    margin-right:30px ;
+    margin-top: px;
+   
+}
+  .navbar a.nav-link:hover{
+    color:rgb(237, 27, 36); 
+    transition: .5s;
+    
+  }
+ 
+  
+  .navbar a.nav-link:hover:after{
+    opacity: o;
+    transition: all 0.5s;
+   content: '';
+    height: 1.5px;
+    width: 100%;
+    background-color:rgb(237, 27, 36) ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .nnn{
+    width: 150px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  
+  /* Additional styles to vertically center the menu items in the collapsed menu */
+  .navbar-toggler-icon {
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+  }
+  .custom-text{
+    font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif ;
+  margin-bottom: -1rem;
+  }
+  
+  
+  .title{
+    text-align: center;
+    font-size: 1px;
+    color: #fff;
+    background-color: blue;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+  }
+  .card-title {
+    background-color:rgb(0,82,161);
+    padding: 15px 50px;
+    color:#fff;
+    transition: background-color 0.3s ease; 
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 19.3px;
+    line-height: 1.4;
+    
+  }
+  .card-title:hover{
+    background-color: red;
+    transition: background-color 0.3s ease;
+  }
+
+  
+
+/* Add spacing between rows */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: px;
+  margin-bottom: 20px; /* Add spacing between the cards */
+  box-sizing: border-box;
+  margin-right: 20px;
+  
+}
+
+/* Ensure cards take full width on small screens */
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add spacing between the cards and the button */
+}
+@media (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+.btn {
+  background-color: red;
+  border: none;
+}
+.btn:hover{
+  transition: background-color 0.3s ease;
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 100px; /* Add spacing between the cards and the button */
+}
+
+/* Additional content styling */
+.additional-content {
+  background-image: url("img-15.jpg");
+  background-size: cover;
+  padding: 40px;
+}
+
+.additional-content h2, .additional-content h3, .additional-content p {
+  color: white;
+}
+
+.additional-content .btn {
+  margin-top: 20px;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 991px) {
+  .additional-content .row {
+    flex-direction: column;
+  }
+
+  .additional-content .col-md-6 {
+    width: 100%;
+  }
+}
+.img-fluid1{
+  width: 457PX;
+  height: 454PX;
+  margin-left: 50px;
+}
+.additional-content h2  {
+  color:red; /* Set the text color to white */
+  margin-left: 50px; 
+  margin-top: 8px;
+  font-family:  Poppins, sans-serif;
+}
+.additional-content h3 {
+  color:blue; /* Set the text color to white */
+  margin-left: 50px; 
+  margin-top: 100px;
+  font-family:  Poppins, sans-serif;
+}
+.additional-content p {
+  color:black ; /* Set the text color to white */
+  margin-left: 50px; 
+  font-family:  Poppins, sans-serif;
+}
+.additional-content .btn {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family:  Poppins, sans-serif;
+}
+#center-content {
+  text-align: center;
+  background-color: rgb(251,242,241);
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.center-text {
+  font-size: 24px;
+  margin-top: 20px;
+  font-size: medium;
+}
+.card-title {
+  text-align: center; 
+  width: 100%; 
+  cursor: pointer;
+  
+}
+
+
+
